@@ -50,6 +50,7 @@ function renderLicenseLink(license) {
   }
 }
 
+// Function returns the contributor covenant or returns an empty string
 function renderContributing(selection) {
   if (selection === 'Yes, Include the Contributor Covenant') {
     return '[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)';
@@ -58,7 +59,8 @@ function renderContributing(selection) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README; pulls user input and prints it to the readme; 
+// uses the function above to determine which license and contriburting options to print
 function generateMarkdown(data) {
   return `
 # ${data.title}
@@ -115,4 +117,5 @@ Please email me at the address below if you have any additional questions:
 `;
 }
 
+// exports the generateMarkdown.js file
 module.exports = generateMarkdown;
