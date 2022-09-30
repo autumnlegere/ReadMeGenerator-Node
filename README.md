@@ -10,18 +10,27 @@ This project generates a ReadMe file using prompts given through the command lin
 
 In order to run this project you will need to open the files in vs code , open the command line, and run the command 'node index.js'. You will then be presented with the command line prompts. Answer each one, and then the project will automatically generate a ReadMe file based on your answers.
 
-## Link to Project
-[Title Here](https://autumnlegere.github.io/ repo name here)
+
+## Tests
+
+If you would like to see how the application will function before committing to it, I would encourage you to simply fill in ‘yes’ for each input prompt that comes up. Select a random license and the contributor covenant, and then see how the final readme turns out. From there you can determine if this application fits your needs and how the end result will look before committing to use it.
+
+
+## Video Demonstration
+
+![Video Demonstration](./media/ReadMe%20Generator%20Demonstration.mov)
  
+
 ## Screenshot
  
 This is a screenshot of the project.
  
-![title](.jpg)
+![Screenshot](./media/Screenshot.jpg)
  
+
 ## Credits
  
-- Code for 'mailto:' link in md <br> cvv
+- Code for 'mailto:' link in md <br>
     - [w3schools](https://www.w3schools.io/file/markdown-links/)
 
 - Code used as reference/starting point for if statement setup of license question and functions, const generateMarkdown, and functions writeToFile and init 
@@ -29,4 +38,3 @@ This is a screenshot of the project.
 
 - License badges and links
     - [choosealicense.com](https://choosealicense.com/licenses/)
-Licenses: https://choosealicense.com/licenses/
